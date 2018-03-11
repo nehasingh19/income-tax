@@ -2,9 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>About Us-Contact-Us</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
 </head>
 <body>
-this is about page
+<div class="container-fluid" id="about-us">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 text-center">
+            <div class="banner-text" style="margin-top: 100px; ">
+                <span style="color: white; font-size: 40px;">About</span>
+                <span style="color: white; font-size: 40px" >-</span>
+                 <span style="color: white; font-size: 40px;"> Contact-us</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <h3 style="font-weight: bolder">About-us</h3>
+        </div>
+        <div class="col-md-offset-4 col-md-4  text-center">
+            <p>
+                BankBazaar is the world's first neutral online marketplace for instant
+                customised rate quotes on loans and credit cards.
+                Shop for loans & cards just like you buy
+                everything else now - online.
+            </p>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="owl-carousel owl-theme">
+            <div class="item text-center">
+                <img src="images/slider/1.jpg" alt="" width="200">
+                <h5>Some Text</h5>
+                <p>some paragraph</p>
+            </div>
+            <div class="item text-center">
+                <img src="images/slider/2.jpg" alt="" width="200">
+                <h4>Some Text</h4>
+                <p>some paragraph</p>
+            </div>
+            <div class="item text-center">
+                <img src="images/slider/3.jpg" alt="" width="200">
+                <h4>Some Text</h4>
+                <p>some paragraph</p>
+            </div>
+            <div class="item text-center">
+                <img src="images/slider/4.jpg" alt="" width="200">
+                <h4>Some Text</h4>
+                <p>some paragraph</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    jQuery(document).ready(function () {
+        var owl = jQuery('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true
+        });
+        jQuery('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        });
+        jQuery('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        });
+    });
+</script>
 </body>
 </html>

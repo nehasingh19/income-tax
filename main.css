@@ -7,11 +7,19 @@ font-size: 30px;
 .myborder:hover
 {
     background-color:bisque;
-    order: 1px solid cyan;
+    border: 1px solid cyan;
 
 }
 .myborder > div
 {
 
 border-left: 1px solid red;
+}
+
+#about-us {
+    background-image: url("images/7555.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+
 }
