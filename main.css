@@ -21,5 +21,10 @@ border-left: 1px solid red;
     background-repeat: no-repeat;
     height: 300px;
     background-size: cover;
-
 }
+
+.mynavbar{
+    background-color: #1c1be2;
+    font-weight: bolder;
+}
+ 
