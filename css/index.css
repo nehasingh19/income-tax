@@ -1,0 +1,11 @@
+.new-hr {
+    background-color: red !important;
+    height: 4px !important;
+    width: 60px !important;
+
+}
+.gallery > .row >div
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}

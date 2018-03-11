@@ -1,0 +1,17 @@
+.myicon{
+    color:red ;
+font-size: 30px;
+    font-size-adjust: 25px; ;
+
+}
+.myborder:hover
+{
+    background-color:bisque;
+    order: 1px solid cyan;
+
+}
+.myborder > div
+{
+
+border-left: 1px solid red;
+}
