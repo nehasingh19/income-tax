@@ -8,12 +8,12 @@ font-size: 30px;
 {
     background-color:bisque;
     border: 1px solid cyan;
-
+color:white;
 }
 .myborder > div
 {
 
-border-left: 1px solid red;
+border-left: 1px solid pink;
 }
 
 #about-us {
@@ -26,5 +26,16 @@ border-left: 1px solid red;
 .mynavbar{
     background-color: #1c1be2;
     font-weight: bolder;
+    color:white;
 }
  
+a.dropdown-toggle{
+    color: white;
+
+}
+.mylabel{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+}
